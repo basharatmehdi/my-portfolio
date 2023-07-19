@@ -5,8 +5,8 @@ const projects = [
       "This is ReactJS + Redux Toolkit powered blog website built upon MongoDB backend facilitated by NodeJS/ExpressJS combo and Tailwind CSS styling framework. Explore pages showcasing dynamic routes generated programmatically based on categories like guides, tutorials, travel, news stories or reviews.",
     img: "/blog.jpg",
     stack: ["MongoDB", "NodeJs", "React", "ExpressJs", "Tailwind CSS"],
-    demoLink: "https://blog.com",
-    sourceCodeLink: "https://www.github.com/basharatmehdi",
+    demoLink: "/",
+    sourceCodeLink: "https://github.com/basharatmehdi/blog_application",
     inProgress: true,
   },
   {
@@ -25,8 +25,8 @@ const projects = [
       "This is a NextJS powered ,Tailwind CSS styled portfolio website showcasing our latest software engineering creations! I am to provide beautiful designs complementing well thought-out functionalities throughout each project page.",
     img: "/portfolio.jpg",
     stack: ["NextJs", "Tailwind CSS", "Node Mailer"],
-    demoLink: "",
-    sourceCodeLink: "",
+    demoLink: "https://basharatmehdi.vercel.app/",
+    sourceCodeLink: "https://github.com/basharatmehdi/my-portfolio",
     inProgress: false,
   },
 ];
