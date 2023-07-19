@@ -57,7 +57,7 @@ const Hero = () => {
         </div>
         <div className="self-center hidden md:block">
           <Image
-            src="./hero-dark.png"
+            src="/hero-dark.png"
             width={300}
             height={300}
             alt={"Basharat Mehdi"}
