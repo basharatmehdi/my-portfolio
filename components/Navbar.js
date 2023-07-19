@@ -45,10 +45,10 @@ function Navbar() {
         </div>
         <nav className="hidden md:flex items-center space-x-4">
           {/* <NavLink href="/" title="Home" /> */}
-          <NavLink href="/#about" title="About" />
-          <NavLink href="/#skills" title="Skills" />
-          <NavLink href="/#projects" title="Projects" />
-          <NavLink href="/#contact" title="Contact" />
+          <NavLink href="#about" title="About" />
+          <NavLink href="#skills" title="Skills" />
+          <NavLink href="#projects" title="Projects" />
+          <NavLink href="#contact" title="Contact" />
         </nav>
         <div className="md:hidden text-cyan-950">
           {!mNav ? (

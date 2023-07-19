@@ -11,7 +11,7 @@ const MobileNavbar = ({ className, setMNav }) => {
           onClick={() => {
             setMNav(false);
           }}
-          href="/#about"
+          href="#about"
           className={
             "hover:bg-blue-300 w-11/12 text-center py-2 rounded-md mb-3"
           }
@@ -33,7 +33,7 @@ const MobileNavbar = ({ className, setMNav }) => {
           onClick={() => {
             setMNav(false);
           }}
-          href="/#projects"
+          href="#projects"
           className={
             "hover:bg-blue-300 w-11/12 text-center py-2 rounded-md mb-3"
           }
@@ -44,7 +44,7 @@ const MobileNavbar = ({ className, setMNav }) => {
           onClick={() => {
             setMNav(false);
           }}
-          href="/#contact"
+          href="#contact"
           className={
             "hover:bg-blue-300 w-11/12 text-center py-2 rounded-md mb-3"
           }
