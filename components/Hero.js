@@ -50,9 +50,13 @@ const Hero = () => {
             >
               Hire Me
             </Link>
-            <button className="px-5 py-2 rounded-lg bg-cyan-500/20 hover:bg-cyan-500/30 hover:scale-95 font-bold tracking-wide text-cyan-900 transition-all ease-in-out duration-300">
+            <Link
+              href="/Basharat-Mehdi-Dar-Resume.pdf"
+              alt="resume"
+              className="px-5 py-2 rounded-lg bg-cyan-500/20 hover:bg-cyan-500/30 hover:scale-95 font-bold tracking-wide text-cyan-900 transition-all ease-in-out duration-300"
+            >
               Download Resume
-            </button>
+            </Link>
           </div>
         </div>
         <div className="self-center hidden md:block">
