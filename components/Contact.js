@@ -51,7 +51,7 @@ const Contact = () => {
         },
         body: data,
       });
-      console.log(response.json());
+      // console.log(response.json());
       if (!response.ok) {
         setState((prev) => ({
           ...prev,
@@ -62,7 +62,8 @@ const Contact = () => {
       setSuccessMsg("Message Sent successfully.");
       setState(initialState);
     } catch (error) {
-      console.log(error);
+      // console.log(error);
+      setErr(error);
     }
   };
 
